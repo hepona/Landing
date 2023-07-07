@@ -1,0 +1,63 @@
+*{
+    font-family: 'Source Code Pro', monospace;
+}
+.container{
+    margin: -10px;
+}
+.banner {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.838) 0%,rgba(255, 255, 255, 0) 80%), url("images/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 160px 0px;
+    text-align: center;
+}
+
+.banner h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.banner h3{
+    font-weight: lighter;
+    opacity: 0.8;
+    margin-bottom: 25px;
+}
+
+.btn_apply{
+    border: none;
+    border-radius: 15px;
+    padding: 13px 20px;
+    font-weight: bold;
+    background-color:#ffe36a;
+    text-decoration: none;
+    color: #21241a;
+    transition: box-shadow 0.4s;
+}
+.btn_apply:hover{
+    box-shadow: 0 0 20px 0 rgba(236, 203, 16, 0.805);
+}
+
+.cards{
+    display: flex;
+    align-items: flex-start;
+        text-align: center;
+        /* margin: 15px; */
+        gap:20px;
+
+}
+
+.card {
+
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+    padding: 35px;
+    background-color: rgb(225, 62, 62);
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(50,50,93,.11);
+    margin: 16px;
+  }
+  
